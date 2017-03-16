@@ -645,7 +645,6 @@ public class ReadingActivity extends Activity implements OnRegChangedListener,
         DialogRadio dialog = new DialogRadio(this, antenaMacAddress,type,
                 currentReading, this);
         dialog.show();
-        Log.d("Alcala","gone");
 	}
 
 	private void clickSave() {
