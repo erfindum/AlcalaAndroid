@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="40dp" >
+
+    <Button
+        android:id="@+id/btnMantenimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main_buttons_margin"
+        android:layout_weight="2"
+        android:background="@drawable/button"
+        android:text="@string/btn_mantenimiento"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/main_buttons_text_size" />
+
+    <Button
+        android:id="@+id/btnImportar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main_buttons_margin"
+        android:layout_weight="2"
+        android:background="@drawable/button"
+        android:text="@string/btn_importar"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/main_buttons_text_size" />
+
+    <Button
+        android:id="@+id/btnExportar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main_buttons_margin"
+        android:layout_weight="2"
+        android:background="@drawable/button"
+        android:text="@string/btn_exportar"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/main_buttons_text_size" />
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main_buttons_margin"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnBackup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="Copia de Seguridad"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btnRestore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="Restaurar Copia"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main_buttons_margin"
+        android:layout_weight="2"
+        android:background="@drawable/button"
+        android:text="@string/btn_salir"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/main_buttons_text_size" />
+
+  
+
+</LinearLayout>

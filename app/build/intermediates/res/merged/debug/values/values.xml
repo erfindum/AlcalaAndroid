@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alpha_blue">#0026FF</color>
+    <color name="dark_green">#267F00</color>
+    <color name="dark_red">#7F0000</color>
+    <color name="light_gray">#C0C0C0</color>
+    <color name="light_green">#00FF21</color>
+    <color name="light_yellow">#FFE97F</color>
+    <color name="state_green">#15B200</color>
+    <color name="state_red">#FF0000</color>
+    <color name="state_yellow">#FFDD00</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="label_text_size">18sp</dimen>
+    <dimen name="main_buttons_margin">10dp</dimen>
+    <dimen name="main_buttons_text_size">25sp</dimen>
+    <string name="abering_address_no_existen">Abering - No existen el MAC</string>
+    <string name="abering_mac_inválido">Abering MAC inválido</string>
+    <string name="action_settings">Settings</string>
+    <string name="actualiza_registros">Actualizar los registros. No eliminar</string>
+    <string name="advertencia_fecha">La fecha de la lectura actual es menor que la lectura anterior, ¿Continuar?</string>
+    <string name="advertencia_lectura_menor">La lectura nueva es menor que la anterior, ¿Continuar?</string>
+    <string name="advertencia_lectura_setenta">El consumo supera en más de un 70% la media de los últimos 6 meses, ¿Continuar?</string>
+    <string name="antena_1_abering">Antena 1 - Abering</string>
+    <string name="antena_2_wmbus">Antena 2 - Wmbus</string>
+    <string name="app_name">Alcalá Contadores</string>
+    <string name="archivo_cargado_cantidad_para_reemplazar">XXX</string>
+    <string name="archivo_cargado_multi">SE HAN ENCONTRADO XXX ENTRADAS PARA CARGAR</string>
+    <string name="archivo_cargado_uni">SE HA ENCONTRADO UNA ENTRADA PARA CARGAR</string>
+    <string name="archivo_no_cargado">NO SE HA CARGADO NINGÚN ARCHIVO</string>
+    <string name="archivo_no_registros">EL ARCHIVO SELECCIONADO NO CONTIENE ENTRADAS</string>
+    <string name="btn_exportar">EXPORTAR A FICHERO PARA IESALECT</string>
+    <string name="btn_importar">INCORPORAR DATOS DE IESALECT</string>
+    <string name="btn_mantenimiento">MANTENIMIENTO DE LECTURAS</string>
+    <string name="btn_salir">TERMINAR APLICACIÓN</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="cargando">Cargando archivos...</string>
+    <string name="comunidad_mayusculas">COMUNIDAD</string>
+    <string name="diferencia">Diferencia</string>
+    <string name="direccion_mayusculas">DIRECCION</string>
+    <string name="elimina_registros">Eliminar los registros actuales en el dispositivo</string>
+    <string name="exporta_parte">Exportar por comunidad</string>
+    <string name="exporta_todos">Exportar todas las entradas</string>
+    <string name="exportacion_nombre_archivo">Introduce un nombre para el archivo de salida</string>
+    <string name="exportacion_seleccion_tipo">Selecciona el tipo de exportación</string>
+    <string name="exportar_datos_mayus">EXPORTAR DATOS</string>
+    <string name="exportar_mayus">EXPORTAR</string>
+    <string name="finca_mayusculas">FINCA</string>
+    <string name="guardando">Guardando nuevos registros </string>
+    <string name="guardar">GUARDAR</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="importacion_seleccion_archivo">Selecciona un archivo para importar</string>
+    <string name="importacion_seleccion_tipo">Selecciona el tipo de importación</string>
+    <string name="importar_datos_mayus">IMPORTAR DATOS</string>
+    <string name="importar_mayus">IMPORTAR</string>
+    <string name="lectura_actual">Lectura actual</string>
+    <string name="lectura_anterior">Lectura anterior</string>
+    <string name="lectura_btn">Empieza la lectura</string>
+    <string name="lectura_título">Elige una Antena</string>
+    <string name="lecturas">LECTURAS</string>
+    <string name="leyendo">Leyendo nuevos registros...</string>
+    <string name="mac_título">Añade el MAC para las Antenas</string>
+    <string name="no">NO</string>
+    <string name="no_archivos">No se han encontrado archivos</string>
+    <string name="no_entradas">No hay entradas para guardar</string>
+    <string name="no_existe_archivo_entrada">No se encuentra el archivo de entrada</string>
+    <string name="selecciona_comunidad">No hay ninguna comunidad seleccionada, selecciona una porfavor</string>
+    <string name="selection_title">Selección de la finca</string>
+    <string name="visto_mayusculas">VISTO</string>
+    <string name="wmbus_address_no_existen">Wmbus - No existen el MAC</string>
+    <string name="wmbus_mac_inválido">Wmbus MAC inválido</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+    <style name="AppTheme2" parent="android:Theme.Holo.Light">
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerAppTheme</item>
+
+  </style>
+    <style name="SpinnerAppTheme" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/apptheme_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/apptheme_list_selector_holo_light</item>
+  </style>
+</resources>

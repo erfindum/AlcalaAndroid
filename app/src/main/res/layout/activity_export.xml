@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_activity"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        android:text="@string/exportar_datos_mayus"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStep1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginBottom="20dp"
+        android:text="@string/exportacion_nombre_archivo"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStep2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutEditText"
+        android:layout_marginBottom="20dp"
+        android:text="@string/exportacion_seleccion_tipo"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+<LinearLayout
+    android:focusable="true" android:focusableInTouchMode="true"
+    android:layout_width="0px" android:layout_height="0px"/>
+    <RelativeLayout
+        android:id="@+id/layoutEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioGroup1"
+        android:layout_alignRight="@+id/radioGroup1"
+        android:layout_below="@+id/tvStep1"
+        android:layout_marginBottom="40dp"
+        android:background="@color/light_gray"
+        android:padding="40dp" >
+
+        <EditText
+            android:id="@+id/etFileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white"
+            android:padding="10dp"
+            android:text="ex_lecturas" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnExportar"
+        android:layout_below="@+id/tvStep2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@color/light_gray"
+        android:padding="20dp" >
+
+        <RadioButton
+            android:id="@+id/rbTodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:checked="true"
+            android:text="@string/exporta_todos" />
+
+        <RadioButton
+            android:id="@+id/rbPartes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exporta_parte" />
+
+        <ListView
+            android:id="@+id/lvComunities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/light_gray"
+            android:clickable="false" >
+        </ListView>
+    </RadioGroup>
+
+    <Button android:focusable="true" 
+        android:id="@+id/btnExportar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:padding="20dp"
+        android:text="@string/exportar_mayus"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/main_buttons_text_size" />
+
+</RelativeLayout>

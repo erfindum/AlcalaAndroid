@@ -1,0 +1,8 @@
+27/01/2014 1.0 
+- Primera versión para revisión y correcciones
+
+04/02/2014 1.1
+- Corregido el Backup para que lo haga en la SD si está disponible
+- Corregida la carga del spinner del tipo de incidencia
+- Incorporado el campo "Tipo Anterior" en la pantalla de las lecturas
+- Corregido el generador de archivo de exportación 

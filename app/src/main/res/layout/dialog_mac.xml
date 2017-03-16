@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/mac_título"
+        android:gravity="center_horizontal"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/antena_one_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:padding="10dp"
+        android:text="@string/antena_1_abering"
+        />
+    <EditText
+        android:id="@+id/mac_one_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antena_one_title"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/white"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/antena_two_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mac_one_edit"
+        android:padding="10dp"
+        android:text="@string/antena_2_wmbus"
+        />
+
+    <EditText
+        android:id="@+id/mac_two_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antena_two_title"
+        android:background="@android:color/white"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/selection_bottom_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mac_two_edit"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CANCELAR" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ACEPTAR" />
+    </LinearLayout>
+
+</RelativeLayout>
