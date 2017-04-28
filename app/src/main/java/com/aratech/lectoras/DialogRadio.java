@@ -18,7 +18,7 @@ import android.widget.TextView;
 public class DialogRadio extends Dialog implements
 		android.view.View.OnClickListener {
 
-	private String currentRadioMac;
+	private String currentRadioMac, antennaType;
 	private Reg60Lecturas currentReg;
 	private OnEndRadioReadListener listener;
 	private Activity mContext;
@@ -47,7 +47,13 @@ public class DialogRadio extends Dialog implements
 		tvMac.setText(mac);
 
 		antennaInfo = (TextView) findViewById(R.id.antennaInfoType);
-		antennaInfo.setText(antennaType);
+		this.antennaType = antennaType;
+		if(antennaType.equals("abering")) {
+			antennaInfo.setText(context.getString(R.string.antena_1_abering));
+		}
+		if(antennaType.equals("wmbus")){
+			antennaInfo.setText(context.getString(R.string.antena_2_wmbus));
+		}
 
 		tvUpdate = (TextView) findViewById(R.id.tvUpdate);
 
@@ -77,7 +83,8 @@ public class DialogRadio extends Dialog implements
 				do {
 					try {
 						synchronized (this) {
-							int count = RadioDataBaseHelper.getReadingsCount();
+							int count = RadioDataBaseHelper.getReadingsCount(antennaType
+									,getContext().getContentResolver());
 							setTvUpdateText(String.valueOf(count));
 							wait(3000);
 						}
@@ -111,19 +118,14 @@ public class DialogRadio extends Dialog implements
 			public void run() {
 				if(!isCancelled){
 					try {
-						if (RadioDataBaseHelper.existsDatabase()) {
-							int count = RadioDataBaseHelper
-									.getReadingsCount();
-							DialogRadio.this.dismiss();
-							if (count > 0) {
-								listener.radioEnd(RESULT_OK, getMarcar());
-							} else {
-								listener.radioEnd(RESULT_NO_DATA, getMarcar());
-							}
-						} else {
-							DialogRadio.this.dismiss();
-							listener.radioEnd(RESULT_NO_DATABASE, getMarcar());
-						}
+                        int count = RadioDataBaseHelper
+                                .getReadingsCount(antennaType,getContext().getContentResolver());
+                        DialogRadio.this.dismiss();
+                        if (count > 0) {
+                            listener.radioEnd(RESULT_OK, getMarcar());
+                        } else {
+                            listener.radioEnd(RESULT_NO_DATA, getMarcar());
+                        }
 					} catch (Exception ex) {
 						DialogRadio.this.dismiss();
 						listener.radioEnd(RESULT_EXCEPTION, getMarcar());
@@ -140,7 +142,12 @@ public class DialogRadio extends Dialog implements
 	private void startRead() {
 		Intent intent = new Intent();
 		Bundle params = new Bundle();
-		params.putString("MAC", currentRadioMac);
+		if(antennaType.equals("abering")){
+			params.putString("MAC", currentRadioMac);
+		}
+		if(antennaType.equals("wmbus")){
+			params.putString("MAC_WMBUS", currentRadioMac);
+		}
 		intent.putExtras(params);
 		intent.setClassName("com.mirakontaservice",
 				"com.mirakontaservice.MKService");

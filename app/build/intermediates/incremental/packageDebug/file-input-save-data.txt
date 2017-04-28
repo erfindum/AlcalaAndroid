@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Mar 16 23:59:21 IST 2017
+#Thu Apr 06 18:37:23 IST 2017
 122.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\apptheme_list_focused_holo.9.png
 60.set=ANDROID_RESOURCE
 129.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\apptheme_spinner_focused_holo_light.9.png
@@ -23,7 +23,7 @@
 143.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\apptheme_btn_radio_on_focused_holo_light.png
 52.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\cb_uncheck_min.png
 62.base=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
-59.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\apptheme_btn_radio_on_focused_holo_light.png
+59.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\apptheme_btn_radio_off_disabled_focused_holo_light.png
 69.base=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
 9.set=ANDROID_RESOURCE
 138.set=ANDROID_RESOURCE
@@ -87,7 +87,7 @@
 51.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\apptheme_btn_radio_off_focused_holo_light.png
 144.set=ANDROID_RESOURCE
 7.set=ANDROID_RESOURCE
-58.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\apptheme_btn_radio_off_disabled_focused_holo_light.png
+58.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\apptheme_btn_radio_on_focused_holo_light.png
 136.set=ANDROID_RESOURCE
 68.base=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
 128.set=ANDROID_RESOURCE
@@ -263,7 +263,7 @@
 86.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_readings_selection_keypad.xml
 96.base=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
 20.set=ANDROID_RESOURCE
-125.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\ic_launcher.png
+125.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\apptheme_list_selector_disabled_holo_light.9.png
 12.set=ANDROID_RESOURCE
 140.base=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
 90.set=ANDROID_RESOURCE
@@ -302,7 +302,7 @@ count=146
 108.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\cb_check_min.png
 17.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\apptheme_btn_radio_on_holo_light.png
 65.set=ANDROID_RESOURCE
-64.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\apptheme_spinner_default_holo_light.9.png
+64.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\apptheme_spinner_disabled_holo_light.9.png
 32.base=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
 57.set=ANDROID_RESOURCE
 39.base=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -327,7 +327,7 @@ count=146
 85.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\state_grey.png
 95.base=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
 10.set=ANDROID_RESOURCE
-124.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\apptheme_list_selector_disabled_holo_light.9.png
+124.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\ic_launcher.png
 80.set=ANDROID_RESOURCE
 72.set=ANDROID_RESOURCE
 55.base=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -362,7 +362,7 @@ count=146
 107.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\dialog_tarifas.xml
 55.set=ANDROID_RESOURCE
 31.base=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
-63.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\apptheme_spinner_disabled_holo_light.9.png
+63.file=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\apptheme_spinner_default_holo_light.9.png
 47.set=ANDROID_RESOURCE
 38.base=C\:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
 39.set=ANDROID_RESOURCE

@@ -68,7 +68,7 @@ public class ReadingActivity extends Activity implements OnRegChangedListener,
 
 	private Button btnSave, btnRadio, btnTarifas, btnMac, btnInfo;
 
-	private String macAberingAddress,macWmbusAddress, adminName;
+	private String macAberingAddress,macWmbusAddress, adminName, antennaType;
 
 	LinearLayout layoutKeypad;
 
@@ -642,6 +642,7 @@ public class ReadingActivity extends Activity implements OnRegChangedListener,
 	}
 
 	private void clickRadio(String antenaMacAddress, String type) {
+        antennaType = type;
         DialogRadio dialog = new DialogRadio(this, antenaMacAddress,type,
                 currentReading, this);
         dialog.show();
@@ -828,7 +829,7 @@ public class ReadingActivity extends Activity implements OnRegChangedListener,
             public void onClick(View view) {
                 if(aberingRadio.isChecked()){
                     if(macAberingAddress!=null && !macAberingAddress.equals("")){
-                        clickRadio(macAberingAddress,getString(R.string.antena_1_abering));
+                        clickRadio(macAberingAddress,"abering");
                         Log.d("AlcalaMac",macAberingAddress +" abering");
                     }else{
                         displayMacErrorToast(getString(R.string.abering_address_no_existen));
@@ -837,8 +838,8 @@ public class ReadingActivity extends Activity implements OnRegChangedListener,
                 }
                 if(wmbusRadio.isChecked()){
                     if(macWmbusAddress!=null && !macWmbusAddress.equals("")){
-                        clickRadio(macWmbusAddress,getString(R.string.antena_2_wmbus));
-                        Log.d("AlcalaMac",macAberingAddress +" wmbus");
+                        clickRadio(macWmbusAddress,"wmbus");
+                        Log.d("AlcalaMac",macWmbusAddress +" wmbus");
                     }else{
                         displayMacErrorToast(getString(R.string.wmbus_address_no_existen));
                         return;
@@ -1007,18 +1008,24 @@ public class ReadingActivity extends Activity implements OnRegChangedListener,
 							.get(i);
 
 					int radioValue = RadioDataBaseHelper
-							.getReadforSerial(reading.serial);
+							.getReadforSerial(reading.serial,antennaType,getContentResolver());
+					Log.d("Alcala","Serial for Reg " + reading.serial);
 
 					switch (radioValue) {
 					case -1:
 					case -2:
 						break;
 					default:
-						double valueOnCubicMetters = radioValue / 1000;
-						DecimalFormat threeDecFormat = new DecimalFormat(
-								"#.###");
-						reading.currentRead = threeDecFormat
-								.format(valueOnCubicMetters);
+						if(antennaType.equals("abering")) {
+							double valueOnCubicMetters = radioValue / 1000;
+							DecimalFormat threeDecFormat = new DecimalFormat(
+									"#.###");
+							reading.currentRead = threeDecFormat
+									.format(valueOnCubicMetters);
+						}
+						if(antennaType.equals("wmbus")){
+							reading.currentRead = String.valueOf(radioValue);
+						}
 						if (check) {
 							reading.haveRead = "1";
 						} else {
@@ -1040,7 +1047,7 @@ public class ReadingActivity extends Activity implements OnRegChangedListener,
 			int counter = result;
 			StringBuilder resultToastMessage = new StringBuilder();
 			if (counter > 0) {
-				RadioDataBaseHelper.cleanReadingsDataBase();
+				RadioDataBaseHelper.cleanReadingsDataBase(antennaType,getContentResolver());
 				loadFloorList();
 
 				if (counter > 1) {

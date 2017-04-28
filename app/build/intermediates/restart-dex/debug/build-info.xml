@@ -5,22 +5,22 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="28585675329379"
+    timestamp="63871545514183"
     token="6299841022241770663"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="618" />
+        duration="3830" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="57" />
+        duration="157" />
     <task
         name="verifier"
-        duration="17" />
+        duration="8" />
 
     <artifact
         location="C:\Users\RAAJA\Desktop\Sub_Project\wetransfer-64d1f8\AlcalaAndroid\AlcalaAndroid\app\build\outputs\apk\app-debug.apk"
