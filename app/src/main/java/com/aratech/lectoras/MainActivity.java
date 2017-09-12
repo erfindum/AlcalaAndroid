@@ -18,7 +18,7 @@ import java.util.GregorianCalendar;
 
 public class MainActivity extends Activity implements OnClickListener{
 
-	Button btnMaintenance, btnImport, btnExport, btnFinalize, btnBackup, btnRestore;
+	Button btnMaintenance, btnImport, btnExport,btnExportAntenna, btnFinalize, btnBackup, btnRestore;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +33,10 @@ public class MainActivity extends Activity implements OnClickListener{
 		
 		btnExport = (Button) findViewById(R.id.btnExportar);
 		btnExport.setOnClickListener(this);
-		
+
+		btnExportAntenna = (Button) findViewById(R.id.btnExportarAntena);
+		btnExportAntenna.setOnClickListener(this);
+
 		btnFinalize = (Button) findViewById(R.id.btnSalir);
 		btnFinalize.setOnClickListener(this);
 		
@@ -60,6 +63,10 @@ public class MainActivity extends Activity implements OnClickListener{
 		startActivity(newIntent);
 	}
 
+    private void startAntennaExportActivity(){
+        startActivity(new Intent(this,ReadingExportActivity.class));
+    }
+
 	@Override
 	public void onClick(View v) {
 		switch(v.getId()){
@@ -72,6 +79,9 @@ public class MainActivity extends Activity implements OnClickListener{
 		case R.id.btnExportar:
 			startExportActivity();
 			break;
+        case R.id.btnExportarAntena:
+            startAntennaExportActivity();
+            break;
 		case R.id.btnSalir:
 			this.finish();
 			break;

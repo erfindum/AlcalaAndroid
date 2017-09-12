@@ -7,6 +7,7 @@
     <string name="btn_mantenimiento">MANTENIMIENTO DE LECTURAS</string>
     <string name="btn_importar">INCORPORAR DATOS DE IESALECT</string>
     <string name="btn_exportar">EXPORTAR A FICHERO PARA IESALECT</string>
+    <string name="btn_exportar_antena">EXPORTAR LECTURAS DE ANTENA</string>
     <string name="btn_salir">TERMINAR APLICACIÓN</string>
     <string name="selection_title">Selección de la finca</string>
     <string name="lectura_anterior">Lectura anterior</string>
@@ -29,7 +30,9 @@
     <string name="no_archivos">No se han encontrado archivos</string>
     <string name="no_entradas">No hay entradas para guardar</string>
     <string name="exportar_mayus">EXPORTAR</string>
+    <string name="exportar_eliminar_lecturas">ELIMINAR LECTURAS</string>
     <string name="exportar_datos_mayus">EXPORTAR DATOS</string>
+    <string name="exportar_lecturas_mayus">EXPORTAR ANTENA LECTURAS</string>
     <string name="exporta_todos">Exportar todas las entradas</string>
     <string name="exporta_parte">Exportar por comunidad</string>
     <string name="exportacion_nombre_archivo">Introduce un nombre para el archivo de salida</string>
@@ -56,6 +59,7 @@
     <string name="cancel">CANCELAR</string>
     <string name="abering_address_no_existen">Abering - No existen el MAC</string>
     <string name="wmbus_address_no_existen">Wmbus - No existen el MAC</string>
+    <string name="lecturas_eliminar_título">Eliminar las lecturas de antena existentes</string>
 
 
 </resources>

@@ -43,8 +43,8 @@
         android:id="@+id/layoutEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/radioGroup1"
-        android:layout_alignRight="@+id/radioGroup1"
+        android:layout_alignLeft="@+id/scroll_export"
+        android:layout_alignRight="@+id/scroll_export"
         android:layout_below="@+id/tvStep1"
         android:layout_marginBottom="40dp"
         android:background="@color/light_gray"
@@ -59,41 +59,49 @@
             android:padding="10dp"
             android:text="ex_lecturas" />
     </RelativeLayout>
-
-    <RadioGroup
-        android:id="@+id/radioGroup1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btnExportar"
-        android:layout_below="@+id/tvStep2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
-        android:background="@color/light_gray"
-        android:padding="20dp" >
-
-        <RadioButton
-            android:id="@+id/rbTodo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:checked="true"
-            android:text="@string/exporta_todos" />
-
-        <RadioButton
-            android:id="@+id/rbPartes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/exporta_parte" />
-
-        <ListView
-            android:id="@+id/lvComunities"
+        <ScrollView
+            android:id="@+id/scroll_export"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_below="@+id/tvStep2"
+            android:layout_above="@+id/btnExportar"
             android:background="@color/light_gray"
-            android:clickable="false" >
-        </ListView>
-    </RadioGroup>
+            android:layout_marginBottom="40dp"
+            android:fillViewport="true"
+            >
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                >
+
+                <RadioButton
+                    android:id="@+id/rbTodo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:checked="true"
+                    android:text="@string/exporta_todos" />
+
+                <RadioButton
+                    android:id="@+id/rbPartes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exporta_parte" />
+
+                <ListView
+                    android:id="@+id/lvComunities"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@color/light_gray"
+                    android:clickable="false" >
+                </ListView>
+            </RadioGroup>
+        </ScrollView>
+
+
 
     <Button android:focusable="true" 
         android:id="@+id/btnExportar"

@@ -30,6 +30,7 @@
     <string name="archivo_no_cargado">NO SE HA CARGADO NINGÚN ARCHIVO</string>
     <string name="archivo_no_registros">EL ARCHIVO SELECCIONADO NO CONTIENE ENTRADAS</string>
     <string name="btn_exportar">EXPORTAR A FICHERO PARA IESALECT</string>
+    <string name="btn_exportar_antena">EXPORTAR LECTURAS DE ANTENA</string>
     <string name="btn_importar">INCORPORAR DATOS DE IESALECT</string>
     <string name="btn_mantenimiento">MANTENIMIENTO DE LECTURAS</string>
     <string name="btn_salir">TERMINAR APLICACIÓN</string>
@@ -44,6 +45,8 @@
     <string name="exportacion_nombre_archivo">Introduce un nombre para el archivo de salida</string>
     <string name="exportacion_seleccion_tipo">Selecciona el tipo de exportación</string>
     <string name="exportar_datos_mayus">EXPORTAR DATOS</string>
+    <string name="exportar_eliminar_lecturas">ELIMINAR LECTURAS</string>
+    <string name="exportar_lecturas_mayus">EXPORTAR ANTENA LECTURAS</string>
     <string name="exportar_mayus">EXPORTAR</string>
     <string name="finca_mayusculas">FINCA</string>
     <string name="guardando">Guardando nuevos registros </string>
@@ -58,6 +61,7 @@
     <string name="lectura_btn">Empieza la lectura</string>
     <string name="lectura_título">Elige una Antena</string>
     <string name="lecturas">LECTURAS</string>
+    <string name="lecturas_eliminar_título">Eliminar las lecturas de antena existentes</string>
     <string name="leyendo">Leyendo nuevos registros...</string>
     <string name="mac_título">Añade el MAC para las Antenas</string>
     <string name="no">NO</string>
@@ -70,10 +74,14 @@
     <string name="wmbus_address_no_existen">Wmbus - No existen el MAC</string>
     <string name="wmbus_mac_inválido">Wmbus MAC inválido</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     <style name="AppTheme2" parent="android:Theme.Holo.Light">
 

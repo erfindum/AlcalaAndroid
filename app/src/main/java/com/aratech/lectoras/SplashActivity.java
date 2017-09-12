@@ -5,6 +5,10 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.util.Log;
+import android.widget.Toast;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class SplashActivity extends Activity {
 

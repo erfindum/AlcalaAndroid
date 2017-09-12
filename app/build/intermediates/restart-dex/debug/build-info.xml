@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86,armeabi-v7a"
+    abi="x86"
     api-level="19"
-    density="xhdpi"
+    density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="63871545514183"
-    token="6299841022241770663"
+    timestamp="73547702210797"
+    token="2638761763002105035"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="3830" />
+        duration="3186" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="157" />
+        duration="1747" />
     <task
         name="verifier"
-        duration="8" />
+        duration="327" />
 
     <artifact
-        location="C:\Users\RAAJA\Desktop\Sub_Project\wetransfer-64d1f8\AlcalaAndroid\AlcalaAndroid\app\build\outputs\apk\app-debug.apk"
+        location="D:\AndroidProjects\Sub_Project\wetransfer-64d1f8\AlcalaAndroid\AlcalaAndroid\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="1948981165641222"
+        timestamp="73547702210797"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\RAAJA\Desktop\Sub_Project\wetransfer-64d1f8\AlcalaAndroid\AlcalaAndroid\app\build\outputs\apk\app-debug.apk"
+            location="D:\AndroidProjects\Sub_Project\wetransfer-64d1f8\AlcalaAndroid\AlcalaAndroid\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 

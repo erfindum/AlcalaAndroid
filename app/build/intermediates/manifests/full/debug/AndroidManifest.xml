@@ -44,6 +44,12 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
+            android:name="com.aratech.lectoras.ReadingExportActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
             android:name="com.aratech.lectoras.SelectionPropertyActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name"

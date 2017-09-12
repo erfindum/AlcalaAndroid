@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -76,8 +77,27 @@ public class ExportActivity extends Activity implements OnClickListener {
 		lvComunities.setAdapter(new ComunityAdapter(ExportActivity.this,
 				communitys));
 		lvComunities.setClickable(false);
+        setListViewTouch();
 	
 	}
+
+    //Disallow ScrollView Intercept Touch
+    private void setListViewTouch(){
+        lvComunities.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                switch (motionEvent.getAction()){
+                    case MotionEvent.ACTION_DOWN:
+                        lvComunities.getParent().getParent().requestDisallowInterceptTouchEvent(true);
+                        return true;
+                    case MotionEvent.ACTION_UP:
+                        lvComunities.getParent().getParent().requestDisallowInterceptTouchEvent(false);
+                        return true;
+                }
+                return false;
+            }
+        });
+    }
 
 	@Override
 	public void onClick(View v) {

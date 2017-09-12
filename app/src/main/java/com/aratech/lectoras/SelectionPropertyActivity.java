@@ -131,7 +131,7 @@ public class SelectionPropertyActivity extends Activity implements
 			}
 			String[] splittedEndDate = currentDateFormated.split("/");
 
-			if (Integer.valueOf(splittedInitDate[YEAR]) < Integer
+			if (Integer.valueOf(splittedInitDate[YEAR]) <= Integer
 					.valueOf(splittedEndDate[YEAR])) {
 				return true;
 			} else if (Integer.valueOf(splittedInitDate[YEAR]) > Integer
@@ -195,7 +195,6 @@ public class SelectionPropertyActivity extends Activity implements
 				((Reg20Comunidades) newReg).initDate = previousDateFormated;
 				((Reg20Comunidades) newReg).endDate = currentDateFormated;
 				database.asyncUpdateReg(newReg, this);
-
 			}
 			// reload();
 			selectedReg.setViewed(true);

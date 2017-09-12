@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox.xml",
-        "source": "C:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable-hdpi\\checkbox.xml"
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\background.jpg",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable-hdpi\\background.jpg"
     },
     {
-        "merged": "C:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\background.jpg",
-        "source": "C:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable-hdpi\\background.jpg"
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button.xml",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable-hdpi\\button.xml"
     },
     {
-        "merged": "C:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button.xml",
-        "source": "C:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable-hdpi\\button.xml"
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox.xml",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable-hdpi\\checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\splash_background.jpg",
-        "source": "C:\\Users\\RAAJA\\Desktop\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable-hdpi\\splash_background.jpg"
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\splash_background.jpg",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable-hdpi\\splash_background.jpg"
     }
 ]

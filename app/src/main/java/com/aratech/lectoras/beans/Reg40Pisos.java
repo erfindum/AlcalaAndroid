@@ -45,9 +45,9 @@ public class Reg40Pisos extends Reg {
 		}
 
         //TODO: MES AND KICODE FIX THIS SHIT ON 27/3/15
-        readerExtension = readerExtension.replace(community, "");
-        readerExtension = readerExtension.replace(property, "");
-        readerExtension = readerExtension.replace(floor, "");
+       // readerExtension = readerExtension.replace(community, "");
+       // readerExtension = readerExtension.replace(property, "");
+       // readerExtension = readerExtension.replace(floor, "");
 	}
 
 	
@@ -66,9 +66,9 @@ public class Reg40Pisos extends Reg {
 		serial = getItemByPositionForExport(SERIAL_POSITION);
 
         //TODO: MES AND KICODE FIX THIS SHIT ON 27/3/15
-        readerExtension = readerExtension.replace(community, "");
-        readerExtension = readerExtension.replace(property, "");
-        readerExtension = readerExtension.replace(floor, "");
+       // readerExtension = readerExtension.replace(community, "");
+       // readerExtension = readerExtension.replace(property, "");
+       // readerExtension = readerExtension.replace(floor, "");
 	}
 	public void setViewed(boolean viewed){
 		this.viewed = viewed ? "1" : "0";

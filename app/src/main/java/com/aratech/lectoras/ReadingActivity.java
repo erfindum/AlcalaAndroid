@@ -2,8 +2,11 @@ package com.aratech.lectoras;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -39,13 +42,17 @@ import com.aratech.lectoras.beans.Reg60Lecturas;
 import com.aratech.lectoras.beans.Reg99TipoLectura;
 import com.aratech.lectoras.data.RegDataBase;
 import com.aratech.lectoras.data.classes.Keypad;
+import com.aratech.lectoras.data.classes.ReadingDatabaseHelper;
+import com.aratech.lectoras.data.classes.ReadingDatabaseSQL_statements;
 import com.aratech.lectoras.data.classes.RegDataBaseSQL_statements.Reg20Constants;
 import com.aratech.lectoras.data.classes.RegDataBaseSQL_statements.Reg40Constants;
 import com.aratech.radio.RadioDataBaseHelper;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 
 import static com.aratech.lectoras.R.id.dialogAntenaReading;
 
@@ -982,6 +989,7 @@ public class ReadingActivity extends Activity implements OnRegChangedListener,
 
 		AlertDialog waitDialog;
 		TextView textDialog;
+        SQLiteDatabase antennaReadingDb;
 
 		@Override
 		protected void onPreExecute() {
@@ -999,6 +1007,7 @@ public class ReadingActivity extends Activity implements OnRegChangedListener,
 
 			ArrayList<Reg> readingsWithRadio = database
 					.getReadingsWithRadioByCommunity(currentCommunity);
+            antennaReadingDb = new ReadingDatabaseHelper(ReadingActivity.this).getWritableDatabase();
 			boolean check = params[0];
 			int counter = 0;
 
@@ -1031,6 +1040,7 @@ public class ReadingActivity extends Activity implements OnRegChangedListener,
 						} else {
 							reading.haveRead = "0";
 						}
+                        saveReadingsToDb(reading.serial,antennaType,reading.currentRead);
 						reading.saved = true;
 						database.updateReg(reading);
 						counter++;
@@ -1065,6 +1075,46 @@ public class ReadingActivity extends Activity implements OnRegChangedListener,
 			Toast.makeText(ReadingActivity.this, resultToastMessage,
 					Toast.LENGTH_LONG).show();
 		};
+
+		private String getCurrentDate(){
+            Calendar cal = Calendar.getInstance();
+            SimpleDateFormat format =new SimpleDateFormat("dd-MM-yyyy");
+            return format.format(cal.getTime());
+        }
+
+        private void saveReadingsToDb(String cic, String antennaType, String reading){
+            String projection[] = {ReadingDatabaseSQL_statements.CIC,
+                    ReadingDatabaseSQL_statements.ANTENNA_TYPE, ReadingDatabaseSQL_statements.DATE,
+                    ReadingDatabaseSQL_statements.ANTENNA_READINGS};
+            String selection = ReadingDatabaseSQL_statements.CIC +"=? AND "+
+                    ReadingDatabaseSQL_statements.ANTENNA_TYPE+ "=? AND " +
+                    ReadingDatabaseSQL_statements.DATE+ "=?";
+            String selectionArgs[] = {cic,antennaType,getCurrentDate()};
+
+            Cursor cursor = antennaReadingDb.query(ReadingDatabaseSQL_statements.READING_DATABSE_TABLE_NAME,
+                    projection,selection,selectionArgs,null,null,null);
+            if(cursor==null){
+                return;
+            }
+            if( cursor.getCount()>0){
+                cursor.moveToFirst();
+                String readingString = cursor.getString(cursor.getColumnIndex(ReadingDatabaseSQL_statements.ANTENNA_READINGS));
+                readingString = readingString+reading+"/";
+                ContentValues values = new ContentValues();
+                values.put(ReadingDatabaseSQL_statements.ANTENNA_READINGS,readingString);
+                antennaReadingDb.update(ReadingDatabaseSQL_statements.READING_DATABSE_TABLE_NAME,
+                        values,selection,selectionArgs);
+            }else{
+                ContentValues values= new ContentValues();
+                values.put(ReadingDatabaseSQL_statements.CIC,cic);
+                values.put(ReadingDatabaseSQL_statements.ANTENNA_TYPE,antennaType);
+                values.put(ReadingDatabaseSQL_statements.DATE,getCurrentDate());
+                values.put(ReadingDatabaseSQL_statements.ANTENNA_READINGS,reading+"/");
+                antennaReadingDb.insert(ReadingDatabaseSQL_statements.READING_DATABSE_TABLE_NAME,
+                        null,values);
+            }
+            cursor.close();
+        }
 	}
 
 }
