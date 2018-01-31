@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\splash.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\menu\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\splash.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\menu\\splash.xml"
+    },
+    {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\splash.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\menu\\splash.xml"
     }

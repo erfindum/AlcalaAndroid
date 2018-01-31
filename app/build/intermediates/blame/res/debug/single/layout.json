@@ -1,7 +1,27 @@
 [
     {
-        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_lectura.xml",
-        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_lectura.xml"
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_readings_selection_keypad.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_readings_selection_keypad.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_community_info.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\header_community_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_floor_info.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\row_floor_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_mac.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\dialog_mac.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reading_export.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\activity_reading_export.xml"
     },
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_warning.xml",
@@ -12,20 +32,48 @@
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_antena_eliminar.xml"
     },
     {
-        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_readings_selection_keypad.xml",
-        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_readings_selection_keypad.xml"
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_row_check_borders.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\header_row_check_borders.xml"
     },
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reading_export.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_reading_export.xml"
     },
     {
-        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_check.xml",
-        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\row_check.xml"
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_readings_selection_keypad.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\activity_readings_selection_keypad.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_check_borders.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\row_check_borders.xml"
     },
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_mac.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_mac.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_check.xml",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\row_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_restore.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\dialog_restore.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\keypad.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\keypad.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_antena_eliminar.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\dialog_antena_eliminar.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tarifa_row.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\tarifa_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_antena_chooser.xml",
@@ -34,6 +82,146 @@
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_community_info.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\header_community_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_export.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\activity_export.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_info.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_info.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_wait.xml",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_wait.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reading_export.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_reading_export.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_property_selection.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\activity_property_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_antena_chooser.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_antena_chooser.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_question.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_mac.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_mac.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_readings_selection.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_readings_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_tarifas.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\dialog_tarifas.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_antena_eliminar.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_antena_eliminar.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tarifa_row.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\tarifa_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\keypad.xml",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\keypad.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tarifa_row.xml",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\tarifa_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_lectura.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\dialog_lectura.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_property_selection_calendar.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_property_selection_calendar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_check_borders.xml",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\row_check_borders.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_tarifas.xml",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_tarifas.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_lectura.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_lectura.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_question.xml",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_community_info.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\header_community_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_selection_layout.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\date_selection_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_wait.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_wait.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_warning.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_check.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\row_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_import.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\activity_import.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_lectura.xml",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_lectura.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_readings_selection_keypad.xml",
+        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_readings_selection_keypad.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_community_info.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\row_community_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_floor_info.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\row_floor_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_check_floor.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\row_check_floor.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_wait.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\dialog_wait.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_warning.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\dialog_warning.xml"
     },
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_floor_info.xml",
@@ -56,8 +244,16 @@
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_radio.xml"
     },
     {
-        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_wait.xml",
-        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_wait.xml"
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_check_floor.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\row_check_floor.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_floor_info.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\header_floor_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_tarifas.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_tarifas.xml"
     },
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_check_floor.xml",
@@ -68,6 +264,10 @@
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_floor_info.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\header_floor_info.xml"
+    },
+    {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_community_info.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\row_community_info.xml"
     },
@@ -76,20 +276,40 @@
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_restore.xml"
     },
     {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_import.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_import.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_selection_layout.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\date_selection_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_check.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\row_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\keypad.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\keypad.xml"
+    },
+    {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_info.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_question.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\dialog_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_info.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\dialog_info.xml"
     },
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_property_selection.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_property_selection.xml"
     },
     {
-        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\keypad.xml",
-        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\keypad.xml"
-    },
-    {
-        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tarifa_row.xml",
-        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\tarifa_row.xml"
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_check_borders.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\row_check_borders.xml"
     },
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_export.xml",
@@ -100,27 +320,55 @@
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_property_selection_calendar.xml"
     },
     {
-        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_check_borders.xml",
-        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\row_check_borders.xml"
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_property_selection.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_property_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_readings_selection.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\activity_readings_selection.xml"
     },
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_row_check_borders.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\header_row_check_borders.xml"
     },
     {
-        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_tarifas.xml",
-        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_tarifas.xml"
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_radio.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\dialog_radio.xml"
     },
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_import.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_import.xml"
     },
     {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_radio.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_property_selection_calendar.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\activity_property_selection_calendar.xml"
+    },
+    {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_selection_layout.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\date_selection_layout.xml"
     },
     {
-        "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_question.xml",
-        "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_question.xml"
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_export.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\activity_export.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_community_info.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\row_community_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_restore.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\layout\\dialog_restore.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_row_check_borders.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\header_row_check_borders.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_antena_chooser.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\layout\\dialog_antena_chooser.xml"
     }
 ]

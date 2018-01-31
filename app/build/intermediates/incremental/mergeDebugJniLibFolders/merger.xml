@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\AndroidProjects\Sub_Project\wetransfer-64d1f8\AlcalaAndroid\AlcalaAndroid\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\AndroidProjects\Sub_Project\wetransfer-64d1f8\AlcalaAndroid\AlcalaAndroid\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\raaja\Desktop\Alcala_Project\Alcala_Project\AlcalaAndroidProject\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\raaja\Desktop\Alcala_Project\Alcala_Project\AlcalaAndroidProject\app\src\debug\jniLibs"/></dataSet></merger>

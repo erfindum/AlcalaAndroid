@@ -191,11 +191,11 @@ public class CalendarHelper implements OnClickListener {
 			int day = Integer.valueOf(dateSplitted[DAY]);
 			int month = Integer.valueOf(dateSplitted[MONTH]) - 1;
 			int year = Integer.valueOf(dateSplitted[YEAR]);
-			/*if (year > 90) {
+			if (year > 90) {
 				year += 1900;
 			} else {
 				year += 2000;
-			}*/
+			}
 
 			GregorianCalendar cal = new GregorianCalendar(year, month, day);
 			calendarView.setDate(cal.getTimeInMillis());
@@ -284,14 +284,14 @@ public class CalendarHelper implements OnClickListener {
 		resultBuilder.append(month + 1);
 		resultBuilder.append("/");
 
-		/*if (year >= 2000) {
+		if (year >= 2000) {
 			year -= 2000;
 		} else {
 			year -= 1900;
 		}
 		if (year < 10) {
 			resultBuilder.append("0");
-		}*/
+		}
 		resultBuilder.append(year);
 
 		return resultBuilder.toString();

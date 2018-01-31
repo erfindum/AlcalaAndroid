@@ -66,6 +66,9 @@ public class SelectionPropertyActivity extends Activity implements
 		ArrayList<Reg> extraInfoArray = database.getRegsFromType(RegType.REG00);
 		if(extraInfoArray != null && extraInfoArray.size() > 0){
 			extraInfo = (Reg00) extraInfoArray.get(0);
+			if(extraInfo != null){
+				formatExtraInfoDate(extraInfo.date);
+			}
 		}
 		
 		lvPropertys = (ListView) findViewById(R.id.lvProperties);
@@ -83,6 +86,19 @@ public class SelectionPropertyActivity extends Activity implements
 		btnReadings.setOnClickListener(this);
 		
 		layoutCalendarView.setVisibility(View.INVISIBLE);
+	}
+
+	void formatExtraInfoDate(String date){
+		String[] splittedDate = date.split("/");
+		if(splittedDate[2].length()>=4) {
+			splittedDate[2] = splittedDate[2].substring(2, 4);
+			StringBuilder formattedDateBuilder = new StringBuilder();
+			for(int i=0;i<=2;i++){
+				String entry = splittedDate[i]+"/";
+				formattedDateBuilder.append(entry);
+			}
+			 extraInfo.date = formattedDateBuilder.toString().substring(0,formattedDateBuilder.length()-1);
+		}
 	}
 
 	@Override

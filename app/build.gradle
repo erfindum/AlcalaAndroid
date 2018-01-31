@@ -8,6 +8,8 @@ android {
         applicationId "com.aratech.lectoras"
         minSdkVersion 11
         targetSdkVersion 16
+        versionCode 20180131
+        versionName "1.2"
     }
 
     buildTypes {

@@ -4,6 +4,9 @@ import com.aratech.lectoras.data.classes.RegDataBaseSQL_statements.Reg20Constant
 
 import android.content.ContentValues;
 import android.database.Cursor;
+import android.util.Log;
+
+import java.util.Objects;
 
 public class Reg20Comunidades extends Reg {
 
@@ -131,12 +134,18 @@ public class Reg20Comunidades extends Reg {
 		StringBuilder resultBuilder = new StringBuilder("20");
 		int numberOfZerosToAppend = 4 - community.length();
 		
-		if(numberOfZerosToAppend > 0)
+		if(numberOfZerosToAppend > 0) {
 			resultBuilder.append(appendZeroToString(community, numberOfZerosToAppend));
+		}else{
+			resultBuilder.append(community);
+		}
 		
 		numberOfZerosToAppend = 4 - property.length();
-		if(numberOfZerosToAppend > 0)
+		if(numberOfZerosToAppend > 0) {
 			resultBuilder.append(appendZeroToString(property, numberOfZerosToAppend));
+		}else {
+			resultBuilder.append(property);
+		}
 		
 		resultBuilder.append(initDate);
 		resultBuilder.append(endDate);
@@ -144,4 +153,20 @@ public class Reg20Comunidades extends Reg {
 		return resultBuilder.toString();
 	}
 
+	@Override
+	public boolean equals(Object o) {
+		boolean isEqual = false;
+		if(o!=null && o instanceof Reg20Comunidades){
+			Reg20Comunidades reg20Comunidades = (Reg20Comunidades) o;
+			isEqual = this.community.equals(reg20Comunidades.community);
+		}
+		return isEqual;
+	}
+
+	@Override
+	public int hashCode() {
+		int result = 17;
+		result = 31*result+community.hashCode();
+		return result;
+	}
 }

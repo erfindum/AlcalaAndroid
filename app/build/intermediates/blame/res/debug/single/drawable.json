@@ -1,11 +1,47 @@
 [
     {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_activated_background_holo_light.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\drawable\\apptheme_activated_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_radio_holo_light.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\drawable\\apptheme_btn_radio_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_item_background_holo_light.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\drawable\\apptheme_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_radio_holo_light.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\drawable\\apptheme_btn_radio_holo_light.xml"
+    },
+    {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_spinner_background_holo_light.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable\\apptheme_spinner_background_holo_light.xml"
     },
     {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\drawable\\apptheme_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_list_selector_holo_light.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\drawable\\apptheme_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_spinner_background_holo_light.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\drawable\\apptheme_spinner_background_holo_light.xml"
+    },
+    {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_list_selector_background_transition_holo_light.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable\\apptheme_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_spinner_background_holo_light.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\drawable\\apptheme_spinner_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\drawable\\apptheme_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_radio_holo_light.xml",
@@ -16,11 +52,23 @@
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable\\apptheme_item_background_holo_light.xml"
     },
     {
+        "merged": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_list_selector_holo_light.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\Alcala_Project\\Alcala_Project\\AlcalaAndroidProject\\app\\src\\main\\res\\drawable\\apptheme_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_activated_background_holo_light.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\drawable\\apptheme_activated_background_holo_light.xml"
+    },
+    {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_list_selector_holo_light.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable\\apptheme_list_selector_holo_light.xml"
     },
     {
         "merged": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_activated_background_holo_light.xml",
         "source": "D:\\AndroidProjects\\Sub_Project\\wetransfer-64d1f8\\AlcalaAndroid\\AlcalaAndroid\\app\\src\\main\\res\\drawable\\apptheme_activated_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_item_background_holo_light.xml",
+        "source": "C:\\Users\\raaja\\Desktop\\AlcalaAndroid\\app\\src\\main\\res\\drawable\\apptheme_item_background_holo_light.xml"
     }
 ]

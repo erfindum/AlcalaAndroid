@@ -6,7 +6,7 @@
         jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="21.1.2"
+        revision="25.0.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
         <dex dex="D:\AndroidProjects\Sub_Project\wetransfer-64d1f8\AlcalaAndroid\AlcalaAndroid\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_73b9883bfda7e9a6ae205d0e99c174e73ba72aaa.jar" />
     </item>
@@ -14,6 +14,15 @@
         is-multidex="false"
         jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\AndroidProjects\Sub_Project\wetransfer-64d1f8\AlcalaAndroid\AlcalaAndroid\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_73b9883bfda7e9a6ae205d0e99c174e73ba72aaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="21.1.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
